@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.top{
+  background-color: rgb(246, 255, 114);
+  padding: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainContainer{
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.containers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.name{
+  width:400px;
+  align-items: flex-start;
+}
+.price{
+  width:50px;
+}
+.subtotal{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-weight: 600;
+}
+.btn{
+  border: none;
+  background-color: white;
+  font-weight: 600;
+}
+.containerSecond{
+  display: flex;
+  justify-content: center;
+}
+.viewedItems{
+display: flex;
+justify-content: center;
+}
+.eachItem{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.back, .next{
+  margin-top: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.back{
+  margin-right: 150px;
+}
+.next{
+  margin-left: 150px;
+}
+p{
+  text-align: justify;
 }
